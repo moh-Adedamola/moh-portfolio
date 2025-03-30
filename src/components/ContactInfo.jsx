@@ -19,7 +19,7 @@ const ContactInfo = () => (
                     <div className="flex items-center space-x-4">
                         <Phone className="text-cyan-400 w-8 h-8" />
                         <div>
-                            <h3 className="text-xl font-semibold text-cyan-100">Message Me on WhatsApp</h3>
+                            <h3 className="text-xl font-semibold text-cyan-100">Contact Me</h3>
                             <a
                                 href="https://wa.me/2347068335394"
                                 target="_blank"

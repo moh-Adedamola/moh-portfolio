@@ -14,19 +14,20 @@ const Navigation = () => (
                     className="w-44 cursor-pointer text-4xl font-bold"
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
-                    MOH'AD
+                    MOH'
                 </span>
 
                 <div className="flex items-center gap-8 text-gray-300">
-                    {["Skills", "Projects", "Experience", "Contact"].map((item) => (
-                        <a
-                            key={item}
-                            href={`#${item.toLowerCase()}`}
-                            className="hover:text-cyan-400 transition-colors"
-                        >
-                            {item}
-                        </a>
-                    ))}
+                {["Skills", "Projects", "Contact"].map((item) => (
+                    <a
+                        key={item}
+                        href={`#${item.toLowerCase()}`}
+                        className="hover:text-cyan-400 transition-colors uppercase font-bold"
+                    >
+                        {item}
+                    </a>
+                ))}
+
                     <div className="flex gap-4 ml-4">
                         <a href="https://www.linkedin.com/in/mohammed-adegbite-2a6990301/" target="_blank"
                            rel="noopener noreferrer">
