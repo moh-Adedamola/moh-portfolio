@@ -12,7 +12,7 @@ const Contacts = () => (
                             Looking for internship opportunities
                         </p>
                         <a
-                            href="https://drive.google.com/file/d/1YQL1NF6dZchlOpDbXUa7QMV53ycs97qs/view?usp=sharing"// Replace with your actual CV URL
+                            href="https://drive.google.com/file/d/1XEr76-9WmmWQQc4l1Z6Ntd1Wks46WW8p/view?usp=sharing"// Replace with your actual CV URL
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-cyan-500 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-cyan-400 transition-colors"
